@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="description" content="Hi I'm Oliver, a London based freelance web developer. Need a unique website made for your business? Then please get in touch.">
+    <meta name="keywords" content="Web Developer, Graphic Designer, Website, Web Development, Graphic Design, Portfolio, Freelance, Programming, London">
+    <meta name="author" content="Oliver Smith">
+    <title>Oliver P Smith || Web Developer || London</title>
+</head>
+<body>
+
+    <header class="header">
+        <a class="nav-link hero" href="">Oliver<span>P</span>Smith</a>
+        <nav>
+            <a class="nav-link" href="#landing">Home</a>
+            <a class="nav-link" href="#work">Work</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <section id="landing">
+        <div class="text">
+            <div class="text-p">Hello & welcome. I'm <span>Oliver. <br></span> A front-end web developer based in London. And this is my portfolio.</div> 
+         <!-- <div class="text-p">Oliver P Smith. London. Front End Developer. Welcome to my portfolio.</div>   -->
+        </div>
+    </section>
+
+    <section id="logo">
+        <img class="logo-splash" src="images/Logo Splash.png" alt="Home Logo">
+        <div class="nav-socials">
+            <div class="socials-link"><a href="https://www.instagram.com/oliverpsmith.tech/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+            <div class="socials-link"><a href="https://dribbble.com/OliverPSmith" target="_blank"><i class="fa fa-dribbble"></i></a></div>
+            <div class="socials-link"><a href="https://github.com/OliverPSmith" target="_blank"><i class="fa fa-github"></i></a></div>
+            <div class="socials-link"><a href="https://www.linkedin.com/in/oliver-smith-a17014209/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+        </div>
+        <p class="home-email"><span class="my-email">oliver_smith@hotmail.co.uk</span></p>
+    </section>
+
+    <section id="work">
+        <div class="work-header">
+            <p>Select 'Websites' to view my websites. Select 'Web Apps' to view my programming projects. Or select 'Figma' to view some of my Figma designs</p>
+         </div>
+        <div class="work-tabs">
+            <div data-tab-target="#freelance-content" class="work-tab active"><span class="capital-text-span">W</span>ebsites</div>
+            <div data-tab-target="#programming-content" class="work-tab"><span class="capital-text-span">W</span>eb Apps</div>
+            <div data-tab-target="#figma-content" class="work-tab"><span class="capital-text-span">F</span>igma</div>
+
+        </div>
+        <!--    Freelance content    -->
+        <div id="freelance-content" data-tab-content class="active">
+            <div class="project-container">
+                <div class="project">
+                    <img src="images/weesc screenshot-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Sports & Social Club</h1>
+                        <p class="project-text">The client wanted a new website for the club, requesting a modern but simple style that gives the user
+                            a feel of the club. Features a gallery slideshow, simple navigation, embedded google maps, links to associated clubs and membership application.
+                        </p>
+                        <ul class="project-features">
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>Responsive</li>
+                            <li>Multi Page</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://www.weessc.org/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/weessc-draft" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/Tanya Website Screenshot-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Voiceover Artist</h1>
+                        <p class="project-text">The client wanted to showcase their previous voiceover works as well as 
+                            display what services they offer. Made and styled to corroborate with the client's 
+                            personality and business. Features embedded Youtube videos, audio files, and a contact 
+                            section that directs straight to the client's email.
+                        </p>
+                        <ul class="project-features">
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>Hosting Assistance</li>
+                            <li>Maintenance</li>
+                            <li>Google Console</li>
+                            <li>Responsive</li>
+                            <li>Single Page</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="http://tanyaosullivan.com/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/voiceoverArtist2ndVersion" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/portfolio-screenshot-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Portfolio</h1>
+                        <p class="project-text">My previous portfolio. A very different layout and style. Built with a vision of keeping it 
+                            professional, relaxed, informative, and utilising space to give users room to breath.
+                        </p>
+                        <ul class="project-features">
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>Hosting Assistance</li>
+                            <li>Maintenance</li>
+                            <li>Responsive</li>
+                            <li>Google Console</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://portfolioapril2022.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/portfolioApril2022" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/demo-pizza-place-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Street Food</h1>
+                        <p class="project-text">A demo website for a made up 'Pizza Van Company'. Designed to be similar to industry 
+                            style but with a unique personality coming through.
+                        </p>
+                        <ul class="project-features">
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Responsive</li>
+                            <li>Multi Page</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://demo-pizza-place.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/Demo-Pizza-Place" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/PTK-website-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Personal Trainer</h1>
+                        <p class="project-text">A demo website for a made up 'Personal Trainer Company'. Also designed to match industry style, 
+                            where a simple, efficient and slightly more stripped back layout and styling suits the needs of the website.
+                        </p>
+                        <ul class="project-features">
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Responsive</li>
+                            <li>Single Page</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://demo-personal-trainers-site.netlify.app/index.html" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/Demo-Personal-Trainer-Website" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    Programming content    -->
+        <div id="programming-content" data-tab-content>
+            <div class="project-container">
+                <div class="project">
+                    <img src="images/movieAppReact-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Film Favourites</h1>
+                        <p class="project-text">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to 
+                            and from a favourites section, which is saved to Local Storage.
+                        </p>
+                        <ul class="project-features">
+                            <li>React</li>
+                            <li>CSS</li>
+                            <li>Responsive</li>
+                            <li>Local Storage</li>
+                            <li>'OMDb API'</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://working-filmfavourites.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/movie-App-React" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/notesAppReact-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Notes</h1>
+                        <p class="project-text">A Notes App where you can add and delete notes, which are then saved to Local Storage. 
+                            Features included are a search filter on the notes list, a character count on the new note, and 
+                            being able to easily switch to and from Dark Mode.
+                        </p>
+                        <ul class="project-features">
+                            <li>React</li>
+                            <li>CSS</li>
+                            <li>Responsive</li>
+                            <li>Local Storage</li>
+                            <li>Dark Mode</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://local-storage-notes-app-react.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/notes-App-React" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/income : expense tracker.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Income / Expense Tracker</h1>
+                        <p class="project-text">Enter your expenses to track your spending, saved to local storage.</p>
+                        <ul class="project-features">
+                            <li>React</li>
+                            <li>CSS</li>
+                            <li>Responsive</li>
+                            <li>Local Storage</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://react-income-expense-tracker.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/react-income-expense-tracker" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/qrGenerator screenshot.png" alt="">
+                    <div class="project-text-container">
+                        <h1>QR Code Generator</h1>
+                        <p class="project-text">Generate a working QR Code for your website and download the code.</p>
+                        <ul class="project-features">
+                            <li>React</li>
+                            <li>CSS</li>
+                            <li>Responsive</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://my-qr-code-generator-react.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/qrGenerator" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images//weatherAppPic-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Weather App</h1>
+                        <p class="project-text">A Weather App usng the 'weatherstack' API, retrieving weather info for anywhere in the world. Information received includes the 'name', 'time' and 'weather' of the searched location. With additional information such as the 'feels like' temperature, 
+                            'cloudcover', 'humidity', and when the weather was last checked.
+                        </p>
+                        <ul class="project-features">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Responsive</li>
+                            <li>'Weatherstack API'</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://second-weather-app.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/weatherApp" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/memeGeneratorPic-min.png" alt="">
+                    <div class="project-text-container">
+                        <h1>Meme Generator</h1>
+                        <p class="project-text">Upload a picture and write text at the top and bottom of the image. Save the image with the 
+                            text to your device.
+                        </p>
+                        <ul class="project-features">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Responsive</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://my-meme-generator-2022.netlify.app/" class="project-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/memeGenerator" class="project-link" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--    Figma content    -->
+         <div id="figma-content" data-tab-content>
+            <div class="project-container">
+                <div class="designs">
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/Kawhi Home.png" alt="New Balance Design Part 1 Image">
+                        </div>
+                        <h1 class="design-p-title">E-Commerce Design</h1>
+                        <p class="design-p-desc">Kawhi Leonard x New Balance: Part 1</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/Kawhi Shoes.png" alt="New Balance Design Part 2 Image">
+                        </div>
+                        <h1 class="design-p-title">E-Commerce Design</h1>
+                        <p class="design-p-desc">Kawhi Leonard x New Balance: Part 2</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/yonexOne.png" alt="Yonex Design Part 1 Image">
+                        </div>
+                        <h1 class="design-p-title">App Design</h1>
+                        <p class="design-p-desc">Yonex: Part 1</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/yonexTwo.png" alt="Yonex Design Part Two Image">
+                        </div>
+                        <h1 class="design-p-title">App Design</h1>
+                        <p class="design-p-desc">Yonex: Part 2</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/nikeOne.png" alt="Niketown Design Part 1 Image">
+                        </div>
+                        <h1 class="design-p-title">Poster Design</h1>
+                        <p class="design-p-desc">NikeTown: Part 1</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/nikeTwo.png" alt="Niketown Design Part 2 Image">
+                        </div>
+                        <h1 class="design-p-title">Poster Design</h1>
+                        <p class="design-p-desc">NikeTown: Part 2</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/nikeThree.png" alt="Niketown Design Part 3 Image">
+                        </div>
+                        <h1 class="design-p-title">Poster Design</h1>
+                        <p class="design-p-desc">NikeTown: Part 3</p>
+                    </div>
+                    <div class="design-project">
+                        <div class="img-container">
+                            <img src="images/pistons.png" alt="Social Media Post Design Image">
+                        </div>
+                        <h1 class="design-p-title">Social Media Post</h1>
+                        <p class="design-p-desc">Detroit Pistons Guard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-block">
+                <h2><span>1/4</span>Keeping It Brief</h2>
+                <p>Hi, I'm Oliver.</p>
+                <p>I'm a self-taught front-end developer based in London.</p>
+                <p>Passionate about creating user-friendly and stylish web projects, I am also a self-taught designer.</p>
+                <p>For web apps and websites I use Javascript and React.</p>
+                <p>For styling I use CSS.</p>
+                <p>And for my designing I use Figma.</p>
+            </div>
+            <div class="about-block">
+                <h2><span>2/4</span> Some Soft Skills</h2>
+                <p>I consider myself to be an excellent communicator; which helps me produce exactly what the client wants as well as giving them a clear understanding of what can be achieved.</p>
+                <p>I am also very critical and analytical, spotting errors and fine tuning code and UI/UX for the best aesthetic and practical output on projects.</p>
+                <p>All websites I make are designed to function on both desktop and mobile screen sizes.</p>
+            </div>
+            <div class="about-block">
+                <h2><span>3/4</span> My Technical Journey</h2>
+                <p>I started my journey off by learning <i>HTML</i>, <i>CSS</i>, and <i>Javascript</i>.</p>
+                <p>Once comfortable and confident with these I directed my attention to the <i>React</i> Library.</p>
+                <p>While working with <i>React</i> I am also frequently experimenting with styling frameworks and librarys such as <i>Tailwind</i> & <i>MaterialUI</i></p>
+                <p>To improve my designing and creativity I started learning and using the design tool <i>Figma</i>, which I now use to start most projects.</p>
+            </div>
+            <div class="about-block">
+                <h2><span>4/4</span> T-M-I</h2>
+                <p>While I do love working, and everything that comes with the web developement world, I also love:</p>
+                <p>Tennis</p>
+                <p>Pink Floyd</p>
+                <p>&</p>
+                <P>The trials and tribulations of Fulham Football Club</P>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h1>Want to get in Touch?</h1>
+            <p>If you would like to discuss working together or collaborating in some way then send me an email and I'll respond ASAP.</p>
+            <p>Contact me here at <span class="my-email">oliver_smith@hotmail.co.uk</span></p>
+            <p>Thank you for checking out my Portfolio, I hope to hear from you soon.</p>
+            <img class="contact-logo" src="images/Logo Splash.png" alt="Logo Image">
+            <div class="nav-socials">
+                <div class="socials-link"><a href="https://www.instagram.com/oliverpsmith.tech/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                <div class="socials-link"><a href="https://dribbble.com/OliverPSmith" target="_blank"><i class="fa fa-dribbble"></i></a></div>
+                <div class="socials-link"><a href="https://github.com/OliverPSmith" target="_blank"><i class="fa fa-github"></i></a></div>
+                <div class="socials-link"><a href="https://www.linkedin.com/in/oliver-smith-a17014209/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+        </div>
+    </section>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
